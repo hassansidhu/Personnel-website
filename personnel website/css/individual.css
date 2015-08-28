@@ -1,0 +1,168 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px; 
+
+	
+}
+
+#container
+{
+        width: 80%;
+	margin-top:1em;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+        
+	
+	
+}
+#logo
+{
+	display:inline-block;
+}
+header
+{
+    
+    text-align:center;
+    display:inline-block;
+    
+}
+h3{
+	text-align: center;
+}
+nav
+{
+	
+	text-align:center;
+	font-size: larger;
+	
+	background-color: #4A4B4D;
+}
+a{
+	color: #FFFFFF;
+}
+a:visited
+{
+	color: #FFFFFF;
+}
+
+a:hover
+{
+	
+	
+	color: #FFFFFF;
+}
+
+a:active
+{
+	color: #FFFFFF;
+}
+
+li
+{
+	list-style-type: none;
+	display:inline-block;
+	margin:1%;
+	padding: 1%;
+	text-align: center;
+}
+#navi
+{
+
+	height :60px;
+}
+
+
+a
+{
+	text-decoration:none;
+}
+article
+{
+        
+background-color: #f3f3f3;
+padding:0.5em;
+text-align: center;
+margin:0.5em;
+
+	
+}
+#me{
+	background-color: #FFFFFF;
+}
+.col-md-4
+{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.875em;
+}
+h5{
+	font-weight: normal;
+}
+h6
+{
+	text-align: center;
+	font-size: larger;
+}
+#list
+{
+	text-align: center;
+}
+.imp
+{
+	font-weight:bold;
+	font-style: italic;
+	margin:1em;
+	
+}
+footer
+{
+	text-align:center;
+	color: #FFFFFF;
+    background-color: #4A4B4D;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+}
+
+#linkedin
+{
+	height:150px;
+	width:150px;
+
+}
+
+#resume
+{
+
+	height:150px;
+	width:150px;
+}
+
+#contact-text
+{
+
+	font-family: 'Lobster', cursive;
+	 color: #2FA5CC;
+    text-align: center;
+
+}
+
+#right-now
+{
+	font-family: 'Poiret One', cursive;
+}
+
+#scroller {
+    
+}
+

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8' />
+	<title>Cell-Phone</title>
+	<link rel='stylesheet' href='project1.css' type='text/css' />
+	<script type="text/javascript">
+		
+	/*Redirection for mac ie 5*/
+
+	function redirect(){
+		var isIE5Mac = ((navigator.userAgent.indexOf("MSIE 5.") != -1) && (navigator.userAgent.indexOf("Mac") != -1) && (navigator.userAgent.indexOf("Opera") == -1)); 
+		if(isIE5Mac){
+			window.location = "http://www.mozilla.org/en-US/firefox/new/";
+		}
+		
+	}
+	</script>
+	<script type="text/javascript"> var ie6=false; </script>	
+	<!--[if lte IE 6]>
+		<script type="text/javascript">
+			window.location = "http://www.mozilla.org/en-US/firefox/new/";
+		</script>
+	<![endif]-->
+	
+	<script type="text/javascript"> var ie7=false; </script>	
+	<!--[if IE 7]>
+	<script type="text/javascript"> var ie7=true;</script>		
+	<![endif]-->
+	
+	<script type="text/javascript"> var ie=false; </script>	
+	<!--[if IE]>
+		<script type="text/javascript"> var ie=true; </script>
+	<![endif]-->
+	
+	<!-- Link to the cookie file-->
+	<script type="text/javascript" src="cookies.js"></script>
+	
+        <!-- Link to the javascript file for displaying data and functionality-->
+
+        <script type='text/javascript' src='data.js'></script>
+        <script type='text/javascript' src='project1.js'></script>
+</head>
+<!--Calls the first function on load and passes the selected parameter -->
+<body onload=" showOption('initial'); ">
+    <div id='container'>
+        <h1>One Stop Shop</h1>
+	<div id='innerContainer'></div>
+	
+    </div>
+    
+</body>
+</html>
+    

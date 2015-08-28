@@ -1,0 +1,41 @@
+body{
+    background-image:url('pattern.jpg');
+}
+#container
+{
+    width: 80%;
+    background-image:url('wallapaper.jpg');
+    text-align: center;
+    box-shadow: 10px 10px 10px #888888;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+#innerContainer
+{
+    background-image:url('wallapaper.jpg');
+    
+}
+.dynamicDiv
+{
+    background-color:#36D695;
+    width:40%;
+    height: 100px;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:20px;
+    color:#373A3F;
+    
+    
+}
+#imageCol
+{
+    background-color: red;
+    
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color:#5ccccc;
+}
